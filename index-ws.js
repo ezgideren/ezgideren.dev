@@ -1,5 +1,5 @@
 const express = require("express");
-const server = require("http").createServer();
+const server = require("https").createServer();
 const app = express();
 
 app.get("/", function (req, res) {
